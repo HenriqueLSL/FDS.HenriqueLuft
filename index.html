@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site do Henrique</title>
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1> Henrique Luft</h1>
+        <p> Olá, prazer! Meu nome é Henrique Luft, tenho 24 anos, sou natural de Brasília/DF,desde criança, sempre fui levemente curioso, característica que me levaram a explorar diferentes interesses ao longo da vida, além da vontade de entender o universo que vivemos, o que me levou a estudar física na graduação. Por outro lado, desde pequeno sou apaixonado por games e esportes, que me fez gostar do meio tecnológico e suas infinitas possibilidades, onde hoje estou cursando a faculdade de análise e desenvolvimento de sistemas. Nos esportes aprendi a importância do trabalho duro e dedicação, onde conseguimos superar qualquer dificuldade e limitações que colocamos no caminho para vitória. Atualmente prático todo tipo de esportes apenas por diversão. </p>
+        
+<button onclick="mostrarMensagem()">Clique para ver uma mensagem!</button>
+
+<div id="mensagem" style="margin-top: 10px; font-size: 16px; color: #003366;"></div>
+
+<script>
+  function mostrarMensagem() {
+    const mensagemDiv = document.getElementById("mensagem");
+    mensagemDiv.textContent = "Desafios existem para te mostrar do que você é capaz, a persistência é uma das chaves para o sucesso!!!";
+  }
+</script>
+        
+        <h2> Lista de Hobbies</h2>
+        <ul>
+            <li>Jogos online</li>
+            <li>Esportes</li>
+            <li>Cozinhar</li>
+        </ul>
+
+        <figure>
+            <img src="Esportes.png" alt="Hobbie Esportes" width="240">
+            <figcaption>Hobbie esportes em geral</figcaption>
+        </figure>
+
+        <table border="1">
+            <caption class="titulo-tabela">Países que gostaria de visitar</caption>
+            <tr>
+                <th>Países</th>
+                <th>Foto referência</th>
+            </tr>
+            <tr>
+                <td>Austrália</td>
+                <td> 
+                    <img src="Australia.jpg" width="100">
+                </td>
+            </tr>
+             <tr>
+                <td>Fiji</td>
+                <td> 
+                    <img src="fiji.jpg" width="100">
+                </td>
+            </tr>
+             <tr>
+                <td>Grécia</td>
+                <td> 
+                    <img src="grecia.jpg" width="100">
+                </td>
+            </tr>
+        </table>
+
+        <h3>Link de um site de entreterimento</h3>
+        <a href="https://www.youtube.com/">Visite o site do YouTube</a>
+
+        
+
+
+</body>
+</html>
